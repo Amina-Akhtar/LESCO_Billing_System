@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Model.EmployeeSignin">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="103" y="20" width="2000" height="3000"/>
+    </constraints>
+    <properties>
+      <minimumSize width="-1" height="-1"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="d1e41" class="javax.swing.JLabel" binding="lblemplSign">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="40"/>
+          <text value="Employee Sign in"/>
+        </properties>
+      </component>
+      <vspacer id="81198">
+        <constraints>
+          <grid row="1" column="4" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="9ddf3" class="javax.swing.JLabel" binding="lblun">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="31" use-parent-layout="false">
+            <minimum-size width="90" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Username:"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="d0fc3" class="javax.swing.JTextField" binding="tfun">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="30"/>
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+        </properties>
+      </component>
+      <component id="e3491" class="javax.swing.JPasswordField" binding="pfpass">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="30"/>
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c8fe7" class="javax.swing.JButton" binding="btnSignin">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="60" use-parent-layout="false">
+            <preferred-size width="120" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Sign in"/>
+        </properties>
+      </component>
+      <component id="d1330" class="javax.swing.JLabel" binding="lblpass">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="31" use-parent-layout="false">
+            <minimum-size width="90" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Password:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
